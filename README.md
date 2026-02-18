@@ -18,7 +18,7 @@ Contient les sources Excel initiales (Communes, Référentiel Géo, Valeurs Fonc
 
 ### 2. Dictionnaire des Données
 Inventaire détaillé des entités, types de données et règles de gestion.
-👉 [Dictionnaire des données (CSV)](./2_dictionnaire/dictionnaire_données.csv)
+👉 [Dictionnaire des données (CSV)](./2_dictionnaire/dictionnaire_de_donnees_022026.xlsx)
 
 ### 3. Notebooks (ETL & Préparation)
 Cœur technique du traitement Python. Ce dossier contient le pipeline qui transforme les fichiers bruts en données structurées.
@@ -29,13 +29,13 @@ Cœur technique du traitement Python. Ce dossier contient le pipeline qui transf
 ### 4. Modélisation
 Conception de l'architecture de la base de données.
 * **Schéma UML** : Visualisation des cardinalités et de la structure 3NF.
-👉 [Schéma UML (PDF)](./4_modelisation/schema_UML.pdf) | [Source (.architect)](./4_modelisation/uml_p4.architect)
+👉 [Schéma UML (PDF)](./4_modelisation/schema_UML.pdf)
 
 ### 5. Script SQL (Base de Données)
 Tout le nécessaire pour reconstruire l'environnement d'analyse.
 * **Scripts** : Code SQL pour la création des tables et des contraintes.
 * **Dossier data_a_importer** : Contient les 5 fichiers CSV finaux pour alimenter directement les tables.
-👉 [Script de création SQL](./5_Script_sql/creation_tables.sql)
+👉 [Script de création SQL](./5_Script_sql/script_creation_bdd.sql)
 
 ### 6. Requêtes SQL (Analyses Métier)
 Liste de 20 requêtes répondant aux besoins stratégiques (Top 20 des communes, prix moyen au m², volume de ventes par région).
