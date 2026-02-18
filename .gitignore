@@ -1,0 +1,14 @@
+# Fichiers temporaires Excel (ceux qui commencent par ~$)
+~$*
+
+# Dossiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers de configuration Python (si tu en utilises)
+__pycache__/
+*.pyc
+
+# Fichiers volumineux ou de sauvegarde
+*.bak
+*.tmp
