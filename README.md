@@ -39,7 +39,7 @@ Tout le nécessaire pour reconstruire l'environnement d'analyse.
 
 ### 6. Requêtes SQL (Analyses Métier)
 Liste de 20 requêtes répondant aux besoins stratégiques (Top 20 des communes, prix moyen au m², volume de ventes par région).
-👉 [Consulter les requêtes SQL](./6_requêtes_SQL/Liste_requêtes.docx)
+👉 [Consulter les requêtes SQL](./6_interrogation_bdd/interrogation_bdd.docx)
 
 ### 7. Rapport Final
 Synthèse de la méthodologie et conclusions de l'étude.
