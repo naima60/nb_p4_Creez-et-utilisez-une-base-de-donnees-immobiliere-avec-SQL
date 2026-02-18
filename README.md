@@ -18,7 +18,7 @@ Contient les sources Excel initiales (Communes, Référentiel Géo, Valeurs Fonc
 
 ### 2. Dictionnaire des Données
 Inventaire détaillé des entités, types de données et règles de gestion.
-👉 [Dictionnaire des données (xlxs)](./2_dictionnaire/dictionnaire_de_donnees_022026.xlsx)
+👉 [Dictionnaire des données (xlxs)](./2_dictionnaire/dictionnaire_de_donnees_022026.pdf)
 
 ### 3. Notebooks (ETL & Préparation)
 Cœur technique du traitement Python. Ce dossier contient le pipeline qui transforme les fichiers bruts en données structurées.
@@ -39,7 +39,7 @@ Tout le nécessaire pour reconstruire l'environnement d'analyse.
 
 ### 6. Requêtes SQL (Analyses Métier)
 Liste de 20 requêtes répondant aux besoins stratégiques (Top 20 des communes, prix moyen au m², volume de ventes par région).
-👉 [Consulter les requêtes SQL](./6_requêtes_SQL/Liste_requetes.docx)
+👉 [Consulter les requêtes SQL](./6_requêtes_SQL/Liste_requêtes.docx)
 
 ### 7. Rapport Final
 Synthèse de la méthodologie et conclusions de l'étude.
