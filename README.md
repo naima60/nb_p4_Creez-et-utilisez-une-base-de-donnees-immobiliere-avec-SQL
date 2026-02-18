@@ -37,9 +37,9 @@ Tout le nécessaire pour reconstruire l'environnement d'analyse.
 * **Dossier data_a_importer** : Contient les 5 fichiers CSV finaux pour alimenter directement les tables.
 👉 [Script de création SQL](./5_script_SQL/script_creation_bdd.sql)
 
-### 6. Requêtes SQL (Analyses Métier)
+### 6. Interrogation base de données SQL (Analyses Métier)
 Liste de 20 requêtes répondant aux besoins stratégiques (Top 20 des communes, prix moyen au m², volume de ventes par région).
-👉 [Consulter les requêtes SQL](./6_interrogation_bdd/interrogation_bdd.docx)
+👉 [Consulter les requêtes SQL](./6_interrogation_bdd/interrogation_bdd.pdf)
 
 ### 7. Rapport Final
 Synthèse de la méthodologie et conclusions de l'étude.
