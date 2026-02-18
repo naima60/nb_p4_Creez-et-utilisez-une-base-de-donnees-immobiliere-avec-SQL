@@ -1,0 +1,66 @@
+🏠 Conception et Analyse d'une Base de Données Immobilières (PostgreSQL)
+📝 Présentation
+Ce projet consiste à concevoir une base de données relationnelle normalisée (3NF) pour centraliser et analyser les transactions foncières en France. La mission couvre l'intégralité du cycle de la donnée : du nettoyage automatisé (ETL) à la modélisation conceptuelle, jusqu'à l'extraction d'insights via des requêtes SQL avancées.
+
+🛠 Environnement Technique
+ETL & Data Cleaning : Python 3 (Pandas, Numpy)
+
+Modélisation : SQL Power Architect (UML / Conceptuel)
+
+Base de Données : PostgreSQL v16
+
+Analyse : SQL (Requêtes complexes, agrégations, jointures multiples)
+
+📑 Structure du Dépôt et Documentation
+1. Données Brutes
+Contient les sources Excel initiales (Communes, Référentiel Géo, Valeurs Foncières) avant traitement.
+
+2. Dictionnaire des Données
+Inventaire détaillé des entités, types de données et règles de gestion.
+👉 Dictionnaire des données (CSV)
+
+3. Notebooks (ETL & Préparation)
+Cœur technique du traitement Python. Ce dossier contient le pipeline qui transforme les fichiers bruts en données structurées.
+
+Pipeline : Nettoyage, typage, gestion des doublons et anonymisation RGPD.
+
+Extraction : Le sous-dossier Export_données contient les fichiers CSV propres.
+👉 Notebook de nettoyage (PDF) | Fichier source (.ipynb)
+
+4. Modélisation
+Conception de l'architecture de la base de données.
+
+Schéma UML : Visualisation des cardinalités et de la structure 3NF.
+👉 Schéma UML (PDF) | Source (.architect)
+
+5. Script SQL (Base de Données)
+Tout le nécessaire pour reconstruire l'environnement d'analyse.
+
+Scripts : Code SQL pour la création des tables et des contraintes.
+
+Dossier data_a_importer : Contient les 5 fichiers CSV finaux pour alimenter directement les tables.
+👉 Script de création SQL
+
+6. Requêtes SQL (Analyses Métier)
+Liste de 20 requêtes répondant aux besoins stratégiques (Top 20 des communes, prix moyen au m², volume de ventes par région).
+👉 Consulter les requêtes SQL
+
+7. Rapport Final
+Synthèse de la méthodologie et conclusions de l'étude.
+👉 Support de présentation (PDF)
+
+🔐 Focus : Conformité & Qualité
+RGPD : Anonymisation stricte des données personnelles par suppression des noms des acquéreurs.
+
+Intégrité Référentielle : Vérification via Python de la cohérence des liens (clés étrangères) et détection des orphelins avant l'injection en base.
+
+Normalisation : Structure en 3ème Forme Normale (3NF) pour éliminer la redondance et garantir la performance des requêtes.
+
+🚀 Comment utiliser ce projet ?
+Clonez le dépôt.
+
+Exécutez le script SQL présent dans 5_Script_sql sur votre serveur PostgreSQL.
+
+Importez les fichiers présents dans 5_Script_sql/data_a_importer dans leurs tables respectives.
+
+Testez les analyses avec les requêtes du dossier 6_requêtes_SQL.
