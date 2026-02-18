@@ -35,7 +35,7 @@ Conception de l'architecture de la base de données.
 Tout le nécessaire pour reconstruire l'environnement d'analyse.
 * **Scripts** : Code SQL pour la création des tables et des contraintes.
 * **Dossier data_a_importer** : Contient les 5 fichiers CSV finaux pour alimenter directement les tables.
-👉 [Script de création SQL](./5_Script_sql/script_creation_bdd.sql)
+👉 [Script de création SQL](./5_Script_SQL/script_creation_bdd.sql)
 
 ### 6. Requêtes SQL (Analyses Métier)
 Liste de 20 requêtes répondant aux besoins stratégiques (Top 20 des communes, prix moyen au m², volume de ventes par région).
